@@ -1,0 +1,68 @@
+body {
+  background: url('./currency.png') no-repeat center center fixed;
+  background-size: cover;
+  position: relative;
+}
+
+body::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5); /* Dark overlay */
+}
+
+.app-container {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  position: relative;
+  z-index: 1;
+  opacity: 0.85;
+  padding: 20px;
+}
+
+.project-heading {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #ffffff;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+.card {
+  background: linear-gradient(145deg, #f3f3f3, #e2e2e2);
+  border-radius: 19px;
+  padding: 20px;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto; 
+}
+
+h2 {
+  text-align: center;
+  font-weight: bold;
+}
+
+.form-label {
+  font-weight: bold;
+}
+
+.form-control, .form-select {
+  border-radius: 10px;
+}
+
+h4 {
+  margin-top: 20px;
+  font-weight: bold;
+  color: #007bff;
+}
+.result {
+  font-weight: bold;
+  color: green;
+
+}
