@@ -24,6 +24,7 @@ const App = () => {
     setAmount(e.target.value);
   };
 
+  // Handle From Currency Change
   const handleFromCurrencyChange = (e) => {
     setFromCurrency(e.target.value);
   };
